@@ -5,7 +5,7 @@ Aerial is a Mac screen saver based on the new Apple TV screen saver that display
 
 Aerial is completely open source, so feel free to contribute to its development!  
 
-[![Github All Releases](https://img.shields.io/github/downloads/johncoates/aerial/total.svg?maxAge=2592000)]()
+[![Github All Releases](https://img.shields.io/github/downloads/johncoates/aerial/total.svg?maxAge=86400)]()
 [![GitHub contributors](https://img.shields.io/github/contributors/johncoates/aerial.svg?maxAge=2592000)]()
 [![Build Status](https://travis-ci.org/JohnCoates/Aerial.svg?branch=master)](https://travis-ci.org/JohnCoates/Aerial)
 [![codebeat badge](https://codebeat.co/badges/cefd1672-5501-4b79-8d08-c2121cdbc9ed)](https://codebeat.co/projects/github-com-johncoates-aerial-e1c8873e-7a9f-4c74-9e50-0380add2478a)
@@ -17,7 +17,7 @@ Aerial is completely open source, so feel free to contribute to its development!
 
 #### Coded with Love by John Coates
 
-[![Twitter](http://i.imgur.com/KzOiue1.png)](http://twitter.com/punksomething)
+[![Twitter](http://i.imgur.com/KzOiue1.png)](https://twitter.com/JohnCoatesDev)
 [![Email](http://i.imgur.com/FvDZudR.png)](mailto:john@johncoates.me)
 
 ## Installation
@@ -62,14 +62,14 @@ Aerial is written in Swift, which requires OS X Mavericks or above.
 I appreciate all pull requests.
 
 ## Brew Cask Support - Install Remotely
-If you're looking to install Aerial across many systems, remotely, or simply from terminal I recommend [Brew Cask](http://caskroom.io/).
+If you're looking to install Aerial across many systems, remotely, or simply from terminal I recommend [Brew Cask](https://caskroom.github.io).
 
 Issue the following terminal command: `brew cask install aerial`
 
 ## Troubleshooting
 
 - Black screen: If you are behind a firewall (like Little Snitch or Hands Off!) try creating exceptions for Aerial to allow it access to Apple's servers. Be sure the applications 'ScreenSaverEngine.app' and 'System Preferences.app' are not being blocked access to *.phobos.apple.com and *.phobos.apple.com.edgesuite.net. If that isn't an option and you are on a Macbook try caching the videos while connected to a different network.
-- "You cannot user the Aerial screen saver with this version of macOS." error: Select Aerial, close System Preferences with Aerial still selected, re-open System Preferences and Aerial should now work. This is a known bug with Swift screensavers in macOS/OS X reported to Apple as [rdar://25569037](http://www.openradar.me/25569037).
+- "You cannot use the Aerial screen saver with this version of macOS." error: Select Aerial, close System Preferences with Aerial still selected, re-open System Preferences and Aerial should now work. This is a known bug with Swift screensavers in macOS/OS X reported to Apple as [rdar://25569037](http://www.openradar.me/25569037).
 
 ## License
 [MIT License](https://raw.githubusercontent.com/JohnCoates/Aerial/master/LICENSE)
